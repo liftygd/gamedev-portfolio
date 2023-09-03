@@ -1,106 +1,103 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
-    <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
-            </div>
-            <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
+  new ProjectData("gamajam-1", "Magician's Little Helper", "img/gamejams/mlh/preview.png", 
+  `
+  <div class="paragraph">
+   <strong>Magician's Little Helper</strong> is a short game made for Brackeys Jam 2023.2! Help the magician keep his reputation and shock his audience with amazing magic tricks.
+  </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/mlh/scr-1.png" alt="MLH Screenshot" />
+  </div>
+  <div class="paragraph center">
+      <a href="https://liftyforever.itch.io/magicians-little-helper" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+  </div>
 
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
-            </ul>
-        </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/mlh/scr-2.png" alt="MLH Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/mlh/scr-3.png" alt="MLH Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/mlh/scr-4.png" alt="MLH Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/mlh/scr-5.png" alt="MLH Screenshot" />
+  </div>
+  `, "#0c0914"),
 
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
-    `, "#c10606", false, true),
-    new ProjectData("project-7", "Drew Blood", "img/projects/project-7-icon.png", `
-    <div class="paragraph">
-                <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
-            </div>
+  new ProjectData("gamajam-2", "Treacherous Sea", "img/gamejams/treacherous-sea/preview.png", 
+  `
+  <div class="paragraph">
+   <strong>Treacherous Sea</strong> is a short game made for Kenney Jam 2023! The theme was Exploration, so, do you want to uncover the mysteries of the Treacherous Sea?
+  </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/treacherous-sea/scr-1.png" alt="TS Screenshot" />
+  </div>
+  <div class="paragraph center">
+      <a href="https://liftyforever.itch.io/treacherous-sea" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+  </div>
 
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Some stuff</li>
-              <li>Some great stuff</li>
-              <li>More awesome stuff</li>
-              <li>And then some</li>
-              </ul>
-          </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/treacherous-sea/scr-2.png" alt="TS Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/treacherous-sea/scr-3.png" alt="TS Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/treacherous-sea/scr-4.png" alt="TS Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/treacherous-sea/scr-5.png" alt="TS Screenshot" />
+  </div>
+  `, "#c6802c"),
 
-            <div class="paragraph">
-              <div class="notice">
-                You can download and try the app for free or purchase it directly from <a href="http://www.somewbsite.com/" target="_blank">Some website</a>
-              </div>
-            </div>
+  new ProjectData("gamajam-3", "Non Playable Character", "img/gamejams/npc/preview.png", 
+  `
+  <div class="paragraph">
+   <strong>Non Playable Character</strong> is a short game made for GMTK Jam 2023! The theme was Roles Reversed, so why not swap places with someone you know very well?
+  </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/npc/scr-1.png" alt="NPC Screenshot" />
+  </div>
+  <div class="paragraph center">
+      <a href="https://liftyforever.itch.io/non-playable-character" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+  </div>
 
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
-    <div class="paragraph">
-                <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-            </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/npc/scr-2.png" alt="NPC Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/npc/scr-3.png" alt="NPC Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/npc/scr-4.png" alt="NPC Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/npc/scr-5.png" alt="NPC Screenshot" />
+  </div>
+  `, "#916f6d"),
 
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=someapp" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
+  new ProjectData("gamajam-4", "Railroad Rampage", "img/gamejams/railroad-rampage/preview.png", 
+  `
+  <div class="paragraph">
+   <strong>Railroad Rampage</strong> is a short action roguelite game made for the Juice Jam 2! You control different wagons of your train to fight off demons trying to stop you from reaching your goal.  
+  </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/railroad-rampage/scr-1.png" alt="RR Screenshot" />
+  </div>
+  <div class="paragraph center">
+      <a href="https://liftyforever.itch.io/railroad-rampage" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+  </div>
 
-          <div class="paragraph">
-          Main features :
-          <ul>
-          <li>Some stuff</li>
-          <li>Some great stuff</li>
-          <li>More awesome stuff</li>
-          <li>And then some</li>
-          </ul>
-      </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/railroad-rampage/scr-2.png" alt="RR Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/railroad-rampage/scr-3.png" alt="RR Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/railroad-rampage/scr-4.png" alt="RR Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/railroad-rampage/scr-5.png" alt="RR Screenshot" />
+  </div>
+  `, "#bb4a3f"),
 
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>
+  new ProjectData("gamajam-5", "Rat Collector", "img/gamejams/rat-collector/preview.png", 
+  `
+  <div class="paragraph">
+   <strong>Rat Collector</strong> is a short arcade game made in 3 days for the mini jam 110! You play as a plague doctor desperate to save your city and people from the plague. Nothing works, so in desperation you resort to doing a dark ritual.
+  </div>
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/rat-collector/scr-1.png" alt="RC Screenshot" />
+  </div>
+  <div class="paragraph center">
+      <a href="https://liftyforever.itch.io/rat-collector" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+  </div>
 
-            <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`),
-    new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
-     <div class="paragraph">
-                <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
-            </div>
-
-            <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>`),
+  <div class="paragraph center">
+      <img class="pc-screenshot" src="img/gamejams/rat-collector/scr-2.png" alt="RC Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/rat-collector/scr-3.png" alt="RC Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/rat-collector/scr-4.png" alt="RC Screenshot" />
+      <img class="pc-screenshot" src="img/gamejams/rat-collector/scr-5.png" alt="RC Screenshot" />
+  </div>
+  `, "#38342a"),
 ];

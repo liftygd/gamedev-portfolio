@@ -1,153 +1,129 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "Sky Settlers (Current Project)", "img/projects/sky-settlers/sky-settlers-preview.gif", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <strong>Sky Settlers</strong> is a city building card game in which you build on islands in the sky and encounter different events, disasters and much more. Use different cards, complete quests and unlock new cards as you progress.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/l4jtoXoki2E" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+        <a href="https://store.steampowered.com/app/2494870/Sky_Settlers/" target="_blank"><img src="img/projects/steam-logo.png" alt="Steam badge" /></a>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Card game mechanics</li>
+        <li>Made a UI Animation Graph for Unity to make the menu and other ui animations. 
+            <br> The animations themselves are handled by DOTween and the graph is used to make different type of animations with timings, order and other features.</li>
+        <li>Infinite progression</li>
         </ul>
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="img/projects/sky-settlers/scr-1.png" alt="Sky Settlers Screenshot" />
+        <img class="pc-screenshot" src="img/projects/sky-settlers/scr-2.png" alt="Sky Settlers Screenshot" />
+        <img class="pc-screenshot" src="img/projects/sky-settlers/scr-3.png" alt="Sky Settlers Screenshot" />
+        <img class="pc-screenshot" src="img/projects/sky-settlers/scr-4.png" alt="Sky Settlers Screenshot" />
     </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
+    `, "#5c7687", false, true),
+
+    new ProjectData("project-4", "Dino Escape - Freelance Order", "img/projects/dino-escape/preview.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+        <strong>Dino Escape</strong> is a project I did as a freelance order. The project was developed in a span of 2-3 weeks.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <a href="https://play.google.com/store/apps/details?id=com.TacoStudios.DinosaurEscape" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Working with a client.</li>
+        <li>Ads integration.</li>
+        <li>In-game shop.</li>
         </ul>
     </div>
 
-    <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/dino-escape/scr-1.png" alt="Dino Escape Screenshot" />
+    <img class="pc-screenshot" src="img/projects/dino-escape/scr-2.png" alt="Dino Escape Screenshot" />
     </div>
-    </div>
+    `, "#47531c", true),
 
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
-    `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-2", "Riddles & Sieges", "img/projects/riddles-and-sieges/preview-gif.gif", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        <strong>Riddles & Sieges</strong> is a medieval puzzle game where you have to use different weapons to solve riddles.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/dNxH3IDYvT8" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="paragraph center">
+        <a href="https://store.steampowered.com/app/2349950/Riddles_And_Sieges/" target="_blank"><img src="img/projects/steam-logo.png" alt="Steam badge" /></a>
+        <a href="https://liftyforever.itch.io/riddles-sieges" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Had to design a lot of puzzles, which I hadn't done at this scale before.</li>
+        <li>Level editor and Steam workshop implementation.</li>
+        <li>Steam achievements and cloud saving.</li>
+        <li>First Steam release.</li>
         </ul>
     </div>
 
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/riddles-and-sieges/scr-1.png" alt="Riddles And Sieges Screenshot" />
+    <img class="pc-screenshot" src="img/projects/riddles-and-sieges/scr-2.png" alt="Riddles And Sieges Screenshot" />
+    <img class="pc-screenshot" src="img/projects/riddles-and-sieges/scr-3.png" alt="Riddles And Sieges Screenshot" />
+    <img class="pc-screenshot" src="img/projects/riddles-and-sieges/scr-4.png" alt="Riddles And Sieges Screenshot" />
+    </div>
+    `, "#9b9585"),
+
+    new ProjectData("project-3", "FPS Roguelike Demo", "img/projects/hunting-season-demo/preview-gif.gif", `
     <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
+        <strong>Hunting Season</strong> is a fast-paced rogue-lite FPS. This game is a combination of first person arena shooters and rogue-likes with items, synergies and many more.
+    </div>
+    <div class="paragraph center">
+        <a href="https://liftyforever.itch.io/hunting-season-demo" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
-    `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
-    <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
-    
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Dungeon generation.</li>
+        <li>Roguelike passive item system. They can infinitely stack and synergise with other items.</li>
+        <li>FPS Enemy AI.</li>
         </ul>
     </div>
 
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-1.gif" alt="Hunting Season Screenshot" />
+    <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-2.gif" alt="Hunting Season Screenshot" />
+    </div>
+    `, "#563738"),
+
+    new ProjectData("project-5", "Unity UI Animation Tool", "img/projects/ui-animation-tool/preview.png", `
     <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
+        I needed to use DOTween to animate my ui, but it was really inconvenient. So I made an animation graph system where you can configure animations with types, order, timings and etc.
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Custom editor graph.</li>
+        <li>Can be used in any Unity project, although requires DOTween.</li>
+        <li>Pretty easy to change or add new animation types.</li>
         </ul>
     </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-1.png" alt="UI Screenshot" />
+    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-2.png" alt="UI Screenshot" />
+    </div>
+    `, "#151411"),
 ];
