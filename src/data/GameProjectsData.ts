@@ -1,13 +1,38 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Sky Settlers (Current Project)", "img/projects/sky-settlers/sky-settlers-preview.gif", 
+    new ProjectData("project-6", "Game Of Bones", "img/projects/game-of-bones/preview.png", `
+    <div class="paragraph">
+        A small game I decided to make after finishing Sky Settlers. Took about a part-time week to finish.
+    </div>
+    <div class="paragraph center">
+        <a href="https://liftyforever.itch.io/game-of-bones" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Turn-based combat.</li>
+        <li>AI opponent.</li>
+        <li>A small dialogue system.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/game-of-bones/scr-1.png" alt="Game Of Bones Screenshot" />
+    <img class="pc-screenshot" src="img/projects/game-of-bones/scr-2.png" alt="Game Of Bones Screenshot" />
+    <img class="pc-screenshot" src="img/projects/game-of-bones/scr-3.png" alt="Game Of Bones Screenshot" />
+    <img class="pc-screenshot" src="img/projects/game-of-bones/scr-4.png" alt="Game Of Bones Screenshot" />
+    </div>
+    `, "#403828"),    
+
+    new ProjectData("project-1", "Sky Settlers", "img/projects/sky-settlers/sky-settlers-preview.gif", 
     `
     <div class="paragraph">
      <strong>Sky Settlers</strong> is a city building card game in which you build on islands in the sky and encounter different events, disasters and much more. Use different cards, complete quests and unlock new cards as you progress.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/l4jtoXoki2E" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/bdhS1eo-_o8" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="paragraph center">
         <a href="https://store.steampowered.com/app/2494870/Sky_Settlers/" target="_blank"><img src="img/projects/steam-logo.png" alt="Steam badge" /></a>
@@ -29,30 +54,27 @@ export default [
         <img class="pc-screenshot" src="img/projects/sky-settlers/scr-3.png" alt="Sky Settlers Screenshot" />
         <img class="pc-screenshot" src="img/projects/sky-settlers/scr-4.png" alt="Sky Settlers Screenshot" />
     </div>
-    `, "#5c7687", false, true),
+    `, "#5c7687", true, true),
 
-    new ProjectData("project-4", "Dino Escape - Freelance Order", "img/projects/dino-escape/preview.png", `
+    new ProjectData("project-5", "Unity UI Animation Tool", "img/projects/ui-animation-tool/preview.png", `
     <div class="paragraph">
-        <strong>Dino Escape</strong> is a project I did as a freelance order. The project was developed in a span of 2-3 weeks.
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=com.TacoStudios.DinosaurEscape" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+        I needed to use DOTween to animate my ui, but it was really inconvenient. So I made an animation graph system where you can configure animations with types, order, timings and etc.
     </div>
 
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Working with a client.</li>
-        <li>Ads integration.</li>
-        <li>In-game shop.</li>
+        <li>Custom editor graph.</li>
+        <li>Can be used in any Unity project, although requires DOTween.</li>
+        <li>Pretty easy to change or add new animation types.</li>
         </ul>
     </div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/dino-escape/scr-1.png" alt="Dino Escape Screenshot" />
-    <img class="pc-screenshot" src="img/projects/dino-escape/scr-2.png" alt="Dino Escape Screenshot" />
+    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-1.png" alt="UI Screenshot" />
+    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-2.png" alt="UI Screenshot" />
     </div>
-    `, "#47531c", true),
+    `, "#151411"),
 
     new ProjectData("project-2", "Riddles & Sieges", "img/projects/riddles-and-sieges/preview-gif.gif", `
     <div class="paragraph">
@@ -82,7 +104,30 @@ export default [
     <img class="pc-screenshot" src="img/projects/riddles-and-sieges/scr-3.png" alt="Riddles And Sieges Screenshot" />
     <img class="pc-screenshot" src="img/projects/riddles-and-sieges/scr-4.png" alt="Riddles And Sieges Screenshot" />
     </div>
-    `, "#9b9585"),
+    `, "#9b9585", true, true),
+
+    new ProjectData("project-4", "Dino Escape - Freelance Order", "img/projects/dino-escape/preview.png", `
+    <div class="paragraph">
+        <strong>Dino Escape</strong> is a project I did as a freelance order. The project was developed in a span of 2-3 weeks.
+    </div>
+    <div class="paragraph center">
+        <a href="https://play.google.com/store/apps/details?id=com.TacoStudios.DinosaurEscape" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Working with a client.</li>
+        <li>Ads integration.</li>
+        <li>In-game shop.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/dino-escape/scr-1.png" alt="Dino Escape Screenshot" />
+    <img class="pc-screenshot" src="img/projects/dino-escape/scr-2.png" alt="Dino Escape Screenshot" />
+    </div>
+    `, "#47531c", true),
 
     new ProjectData("project-3", "FPS Roguelike Demo", "img/projects/hunting-season-demo/preview-gif.gif", `
     <div class="paragraph">
@@ -106,24 +151,4 @@ export default [
     <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-2.gif" alt="Hunting Season Screenshot" />
     </div>
     `, "#563738"),
-
-    new ProjectData("project-5", "Unity UI Animation Tool", "img/projects/ui-animation-tool/preview.png", `
-    <div class="paragraph">
-        I needed to use DOTween to animate my ui, but it was really inconvenient. So I made an animation graph system where you can configure animations with types, order, timings and etc.
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Custom editor graph.</li>
-        <li>Can be used in any Unity project, although requires DOTween.</li>
-        <li>Pretty easy to change or add new animation types.</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-1.png" alt="UI Screenshot" />
-    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-2.png" alt="UI Screenshot" />
-    </div>
-    `, "#151411"),
 ];

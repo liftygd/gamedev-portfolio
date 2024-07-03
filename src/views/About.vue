@@ -1,15 +1,18 @@
 <template>
   <div style="margin-bottom: 80px;">
+    <p><router-link to="/ru"> Russian version </router-link></p>
+
+    <br>
     <h1>Hello!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>Artem Karagodin (or "Lifty")</strong>. A Unity game developer, mainly programmer. I love programming games, discussing and designing them. I've been working in Unity for 4 years now with 5 years of programming experience.
+        I'm <strong>Artem Karagodin (or "Lifty")</strong>. A Unity game developer, mainly programmer. I love programming games, discussing and designing them. I've been working in Unity for 5 years now and programming for 6.
       </div>
 
       <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">game projects</router-link> (some of them were commercial releases, tools, experiments and other), on <router-link to="/other-projects">game jams</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">Currently a solo game developer. You can reach me at <a href="mailto:karagodin.artem27@gmail.com">karagodin.artem27@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">Currently a solo/hobbyist game developer. You can reach me at <a href="mailto:karagodin.artem27@gmail.com">karagodin.artem27@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">

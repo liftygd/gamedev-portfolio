@@ -38,7 +38,17 @@ const routes: Array<RouteConfig> = [
   {
     path: '*',
     redirect: '/404'
-  }
+  },
+  {
+    path: '/ru',
+    name: 'About RU',
+    component: () => import(/* webpackChunkName: "about" */ '../views/About_RU.vue')
+  },
+  {
+    path: '/contact-ru',
+    name: 'Contact RU',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Contact_RU.vue')
+  },
 ]
 
 const router = new VueRouter({

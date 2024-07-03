@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p><router-link to="/contact-ru"> Russian version </router-link></p>
     
     <h1>Let's get in touch</h1>
 
@@ -32,7 +33,7 @@
       </li> -->
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
-        <a href="https://steamcommunity.com/profiles/76561199438345324/" target="_blank">steam.com/me</a>
+        <a href="https://store.steampowered.com/developer/liftygames" target="_blank">steampowered.com/developer</a>
       </li>
     </ul>
 

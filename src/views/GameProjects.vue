@@ -3,7 +3,7 @@
     <h1>Main Game Projects</h1>
 
     <div style="margin-bottom: 30px;">
-      Games / Projects I made, mostly by myself.
+      Games / Projects I made.
     </div>
 
     <ProjectsList v-bind:projects="projects" />

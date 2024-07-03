@@ -3,13 +3,11 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>Artem Karagodin</strong>,  A Unity game developer, mainly programme. Currently based in Krasnodar, Russia. I love programming games, discussing and designing them. I've been working in Unity for 4 years now with 5 years of programming experience.
+      I'm <strong>Artem Karagodin</strong>,  A Unity game developer, mainly programmer. Currently live in Krasnodar, Russia. I love programming games, discussing and designing them. I've been working in Unity for 5 years and programming for 6.
       <br />
       <br />At the moment studying in KubSAU, Krasnodar, Russia.
       <br />
-      <br />I've been developing games since I was 9, although then I was using engines like construct and multimedia fusion, as I didn't know programming...
-      <br />
-      <br />Right now I'm a solo developer, working on my second commercial project for Steam.
+      <br />Right now I'm a more of a hobbyist solo developer.
       <br />
       <router-link to="/contact">Contact me</router-link>.
 
@@ -33,19 +31,18 @@
 
       <div class="skill-set">
         <h3>Languages</h3>
-        <SkillRate name="C#"/>
-        <SkillRate name="HTML / CSS / JS"/>
-        <SkillRate name="Rust"/>
+        <SkillRate name="Mainly C#"/>
         <SkillRate name="C++"/>
+        <SkillRate name="Know a bit of HTML / CSS / JS"/>
       </div>
 
       <div class="skill-set">
         <h3>Gamedev</h3>
         <SkillRate name="Unity"/>
         <SkillRate name="Blender"/>
-        <SkillRate name="Photoshop"/>
+        <SkillRate name="Unreal Engine"/>
         <SkillRate name="Audacity"/>
-        <SkillRate name="Substance Painter"/>
+        <SkillRate name="And other"/>
       </div>
       <div style="clear:both" />
 
@@ -53,26 +50,17 @@
 
       <h3>KubSAU 2022 - ...</h3>
       <h4>Bachelor's degree</h4>
-      <div>Specialty in applied computer science.</div>
+      <div>Specialty in applied informatics.</div>
 
 
       <h2>Languages</h2>
 
       <h3>English</h3>
-      <div>C2</div>
+      <div>C1-C2</div>
 
       <h3>Russian</h3>
       <div>Native</div>
 
-
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Video Games</h3>
-        <div>My favourite games of all time are Rain World, Outer Wilds and Team Fortress 2. I love playing games, watching them, talking about them. And of course, developing them!</div>
-
-        <h3>I 🧡 Cinema</h3>
-        <div>Like to watch some shows in my spare time.</div>
-      </div>
     </div>
   </div>
 </template>
