@@ -1,6 +1,60 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-7", "Unity Dialogue System", "img/projects/unity-dialogue-system/preview.png", `
+        <div class="paragraph">
+            While making a new project, I needed to use a robust and flexible dialogue system. I first decided to use YarnSpinner, but there were some things, that were not
+            included in the base project and other things I wanted to have control of. So I made a dialogue system based on the graph view. It is much better than my animation
+            view graph and it is very easy to expand this, add new nodes and etc.
+        </div>
+        <div class="paragraph center">
+            <a href="https://github.com/liftygd/unity-dialogue-graph" target="_blank"><img src="img/projects/git-logo.png" alt="Git badge" /></a>
+        </div>
+    
+        <div class="paragraph">
+            Main features :
+            <ul>
+            <li>Custom editor graph.</li>
+            <li>Can be used in any Unity project, does not require any third-party asset or system.</li>
+            <li>Very easy to change nodes or add new ones.</li>
+            <li>It is able to handle localization.</li>
+            <li>Speech bubbles and multiple characters support.</li>
+            <li>Dialogue data taken from JSON files.</li>
+            </ul>
+        </div>
+    
+        <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/unity-dialogue-system/scr-1.png" alt="UI Screenshot" />
+        <img class="pc-screenshot" src="img/projects/unity-dialogue-system/scr-2.png" alt="UI Screenshot" />
+        <img class="pc-screenshot" src="img/projects/unity-dialogue-system/scr-3.png" alt="UI Screenshot" />
+        <img class="pc-screenshot" src="img/projects/unity-dialogue-system/scr-4.png" alt="UI Screenshot" />
+        </div>
+        `, "#151411", false, true),
+
+        
+    new ProjectData("project-5", "Unity UI Animation Tool", "img/projects/ui-animation-tool/preview.png", `
+    <div class="paragraph">
+        I needed to use DOTween to animate my ui, but it was really inconvenient. So I made an animation graph system where you can configure animations with types, order, timings and etc.
+    </div>
+    <div class="paragraph center">
+        <a href="https://github.com/liftygd/custom-ui-animation-tools" target="_blank"><img src="img/projects/git-logo.png" alt="Git badge" /></a>
+    </div>
+
+    <div class="paragraph">
+        Main features :
+        <ul>
+        <li>Custom editor graph.</li>
+        <li>Can be used in any Unity project, although requires DOTween.</li>
+        <li>Pretty easy to change or add new animation types.</li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-1.png" alt="UI Screenshot" />
+    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-2.png" alt="UI Screenshot" />
+    </div>
+    `, "#151411"),
+
     new ProjectData("project-6", "Game Of Bones", "img/projects/game-of-bones/preview.png", `
     <div class="paragraph">
         A small game I decided to make after finishing Sky Settlers. Took about a part-time week to finish.
@@ -56,25 +110,28 @@ export default [
     </div>
     `, "#5c7687", true, true),
 
-    new ProjectData("project-5", "Unity UI Animation Tool", "img/projects/ui-animation-tool/preview.png", `
-    <div class="paragraph">
-        I needed to use DOTween to animate my ui, but it was really inconvenient. So I made an animation graph system where you can configure animations with types, order, timings and etc.
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Custom editor graph.</li>
-        <li>Can be used in any Unity project, although requires DOTween.</li>
-        <li>Pretty easy to change or add new animation types.</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-1.png" alt="UI Screenshot" />
-    <img class="pc-screenshot" src="img/projects/ui-animation-tool/scr-2.png" alt="UI Screenshot" />
-    </div>
-    `, "#151411"),
+    new ProjectData("project-3", "FPS Roguelike Demo", "img/projects/hunting-season-demo/preview-gif.gif", `
+        <div class="paragraph">
+            <strong>Hunting Season</strong> is a fast-paced rogue-lite FPS. This game is a combination of first person arena shooters and rogue-likes with items, synergies and many more.
+        </div>
+        <div class="paragraph center">
+            <a href="https://liftyforever.itch.io/hunting-season-demo" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
+        </div>
+    
+        <div class="paragraph">
+            Main features :
+            <ul>
+            <li>Dungeon generation.</li>
+            <li>Roguelike passive item system. They can infinitely stack and synergise with other items.</li>
+            <li>FPS Enemy AI.</li>
+            </ul>
+        </div>
+    
+        <div class="paragraph center">
+        <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-1.gif" alt="Hunting Season Screenshot" />
+        <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-2.gif" alt="Hunting Season Screenshot" />
+        </div>
+        `, "#563738"),
 
     new ProjectData("project-2", "Riddles & Sieges", "img/projects/riddles-and-sieges/preview-gif.gif", `
     <div class="paragraph">
@@ -128,27 +185,4 @@ export default [
     <img class="pc-screenshot" src="img/projects/dino-escape/scr-2.png" alt="Dino Escape Screenshot" />
     </div>
     `, "#47531c", true),
-
-    new ProjectData("project-3", "FPS Roguelike Demo", "img/projects/hunting-season-demo/preview-gif.gif", `
-    <div class="paragraph">
-        <strong>Hunting Season</strong> is a fast-paced rogue-lite FPS. This game is a combination of first person arena shooters and rogue-likes with items, synergies and many more.
-    </div>
-    <div class="paragraph center">
-        <a href="https://liftyforever.itch.io/hunting-season-demo" target="_blank"><img src="img/projects/itch-logo.png" alt="Itch Io badge" /></a>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Dungeon generation.</li>
-        <li>Roguelike passive item system. They can infinitely stack and synergise with other items.</li>
-        <li>FPS Enemy AI.</li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-1.gif" alt="Hunting Season Screenshot" />
-    <img class="pc-screenshot" src="img/projects/hunting-season-demo/scr-2.gif" alt="Hunting Season Screenshot" />
-    </div>
-    `, "#563738"),
 ];
